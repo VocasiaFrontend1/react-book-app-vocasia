@@ -1,14 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   mode: "jit",
-  purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },
-  plugins: [require("flowbite/plugin")],
-  content: [
-    // ...
-    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
-  ],
+  plugins: [],
 };

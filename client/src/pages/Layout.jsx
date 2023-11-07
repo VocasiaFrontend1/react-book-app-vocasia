@@ -1,5 +1,3 @@
-import React from "react";
-
 const Layout = ({ children }) => {
   return (
     <div className="bg-gray-800 h-[100vh] py-36 px-72">

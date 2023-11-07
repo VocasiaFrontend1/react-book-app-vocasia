@@ -13,4 +13,4 @@ Vocasia Studi Independen mini projects for Frontend Class
 - go to root folder
 - cd client
 - npm install
-- npm start
+- npm run dev
